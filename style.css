@@ -1,0 +1,270 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f8f9fd;
+}
+.main-container {
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+.fa-facebook-messenger {
+  color: #d3e1ff;
+  position: relative;
+  z-index: 10;
+}
+.logo-bg {
+  width: 2rem;
+  height: 1.5rem;
+  background-color: #034dfc;
+  position: absolute;
+  top: 0.7rem;
+  left: 0.55rem;
+  z-index: 1;
+}
+.dp {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+.dp-box {
+  background-color: #f5f9fc;
+  border: 1px solid #e7edf4;
+  border-radius: 1rem;
+}
+.subheading {
+  font-size: 1rem;
+}
+.dp-box p {
+  font-size: 0.8rem;
+  color: #4a5f73;
+}
+.chat-heading {
+  font-size: 0.85rem;
+}
+.notification_number {
+  font-size: 0.85rem;
+  text-align: center;
+  vertical-align: center;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  background-color: #eaeff0;
+}
+.fa-angle-up {
+  font-size: 0.7rem;
+}
+.img-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+.chats {
+  list-style-type: none;
+  margin-top: 0.5rem;
+}
+.friend-name {
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: #a3a3a4;
+}
+.chats:hover {
+  background-color: #f2f6fc;
+  border-radius: 0.5rem;
+  color: #18233b;
+}
+.chats:hover .friend-name {
+  color: #18233b;
+}
+
+.chats .notification_number {
+  background-color: #ff5857;
+  color: white;
+}
+.message {
+  padding: 0.4rem;
+  padding-bottom: 0;
+  margin-right: 0.5rem;
+  color: #ffffff;
+  background-color: #18233b;
+  display: inline-block;
+  border-radius: 0.5rem;
+}
+.message > p,
+.message-reply > p {
+  font-size: 0.8rem;
+  padding: 0.3rem;
+  padding-bottom: 0;
+}
+
+.message-reply {
+  padding: 0.4rem;
+  padding-bottom: 0;
+  margin-right: 0.5rem;
+  color: #70727a;
+  background-color: #ffffff;
+  display: inline-block;
+  border-radius: 0.5rem;
+}
+.lighter-text {
+  font-size: 0.5rem;
+  font-weight: 400;
+  color: #8192a5;
+}
+.img-icon-status {
+  position: relative;
+}
+.status-circle {
+  width: 0.65rem;
+  height: 0.65rem;
+  border-radius: 50%;
+  background-color: rgb(0, 253, 4);
+  border: 2px solid white;
+  top: -0.7rem;
+  left: 1.8rem;
+  position: relative;
+}
+.chat-area {
+  background-color: #f2f6fc;
+  margin: 1rem 0;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.fa-location-arrow {
+  transform: rotate(45deg);
+}
+.fa-paperclip {
+  color: #9698a6;
+  font-size: 1.5rem;
+}
+.new-message {
+  border: 1px solid #eff1f2;
+  background-color: #ffffff;
+  border-radius: 0.25rem;
+  padding: 0.35rem 0.75rem;
+  width: 90%;
+}
+.new-message > i {
+  color: #f7ba2e;
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
+.input-area {
+  width: 80%;
+}
+.new-message > input:focus {
+  outline: none;
+}
+.new-message-box {
+  background-color: #fbfdff;
+  padding: 0.75rem 0rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.send-btn {
+  color: white;
+  background-color: #014efa;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0rem 0.35rem;
+}
+.right-section {
+  background-color: #c2d7fe;
+  text-align: center;
+  padding-top: 1.4rem;
+  align-self: center;
+}
+.right-section h3 {
+  color: #3e5676;
+}
+.archive-btn {
+  color: #014efa;
+  border: 1px solid #014efa;
+  padding: 0.35rem 0.5rem;
+  width: 8.5rem;
+  align-self: center;
+  background-color: #ffffff;
+}
+.per-icon > i {
+  font-size: 1.2rem;
+}
+.fa-clock {
+  color: #2565ea;
+}
+.fa-calendar-xmark {
+  color: #fa572c;
+}
+.fa-calendar-check {
+  color: #8676c3;
+}
+.fa-user-group {
+  color: #1fbd9d;
+}
+.per-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+.per-heading {
+  font-size: 1.1rem;
+}
+.per-section {
+  border-radius: 0.75rem;
+  padding: 0.7rem 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.monday-bar {
+  width: 0.5rem;
+  background-color: #c6c7c8;
+  border-radius: 0.2rem;
+}
+.circle {
+  height: 0.35rem;
+  width: 0.35rem;
+  border-radius: 50%;
+  background-color: #c6c7c8;
+}
+.selected {
+  background-color: #004ffa;
+}
+.copy-link-btn {
+  background-color: #014efa;
+  color: white;
+  width: 8rem;
+  border: none;
+  border-radius: 0.35rem;
+  padding: 0.5rem 1rem;
+}
+.last-box {
+  background-color: #f5f7fb;
+}
+.second-last {
+  background-color: #f9fbfc;
+}
+
+@media screen and (max-width: 1000px) {
+  .new-message-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .send-btn {
+    margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .per-section {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 920px) {
+  .input-area {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
